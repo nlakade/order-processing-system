@@ -29,39 +29,10 @@ Clone or Create the Project:
 If starting fresh, create a Maven project:mvn archetype:generate -DgroupId=org.example -DartifactId=order-processing-system -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 
-Alternatively, clone the project repository.
+Alternatively, clone the project repository(https://github.com/nlakade/order-processing-system.git).
 
 
-Directory Structure:
-order-processing-system/
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── org
-│   │   │       └── example
-│   │   │           ├── model
-│   │   │           │   ├── Item.java
-│   │   │           │   ├── Order.java
-│   │   │           │   └── OrderStatus.java
-│   │   │           ├── event
-│   │   │           │   ├── Event.java
-│   │   │           │   ├── OrderCreatedEvent.java
-│   │   │           │   ├── PaymentReceivedEvent.java
-│   │   │           │   ├── ShippingScheduledEvent.java
-│   │   │           │   └── OrderCancelledEvent.java
-│   │   │           ├── observer
-│   │   │           │   ├── OrderObserver.java
-│   │   │           │   ├── LoggerObserver.java
-│   │   │           │   └── AlertObserver.java
-│   │   │           ├── processor
-│   │   │           │   └── EventProcessor.java
-│   │   │           ├── parser
-│   │   │           │   └── EventParser.java
-│   │   │           └── OrderProcessingSystem.java
-│   │   └── resources
-│   │       └── events.txt
-├── pom.xml
-├── README.md
+
 
 
 Configure pom.xml:Ensure the pom.xml includes the Gson dependency and Java 17 configuration:

@@ -31,6 +31,10 @@ If starting fresh, create a Maven project:mvn archetype:generate -DgroupId=org.e
 
 Alternatively, clone the project repository(https://github.com/nlakade/order-processing-system.git).
 
+Result Output:
+
+![Screenshot of console output](https://github.com/username/order-processing-system/raw/main/images/screenshot.png)
+
 
 
 

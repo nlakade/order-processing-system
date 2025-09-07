@@ -33,7 +33,7 @@ Alternatively, clone the project repository(https://github.com/nlakade/order-pro
 
 Result Output:
 
-![Screenshot of console output](https://github.com/username/order-processing-system/raw/main/images/Screenshot_20250907_222055.png)
+![Screenshot of console output](https://github.com/nlakade/order-processing-system/raw/main/images/Screenshot_20250907_222055.png)
 
 
 
